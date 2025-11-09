@@ -26,10 +26,10 @@ This API currently supports 4 endpoints
 ```json
 [
   {
-    userName: string,
-    id: number,
-    email: string,
-    events: string[]
+    userName: "string",
+    id: "number",
+    email: "string",
+    events: "string[]"
   },
   ...
 ]
@@ -41,10 +41,10 @@ This API currently supports 4 endpoints
 ```json
 [
   {
-    id: number,
-    name: string,
-    userId: number,
-    details: string
+    id: "number",
+    name: "string",
+    userId: "number",
+    details: "string"
   },
   ...
 ]
@@ -57,7 +57,7 @@ This API currently supports 4 endpoints
 `POST` - Given a user id and event name, creates a new Event. Expects a stringified JSON body in this format:
 
 ```json
-'{
+{
   "name": "string",
   "userId": "number"
 }'
