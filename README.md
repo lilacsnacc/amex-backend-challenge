@@ -63,7 +63,23 @@ This API currently supports 4 endpoints
 }'
 ```
 
-and will return `{"success":true}` if successful.
+if successful, will return
+
+```json
+{
+  "success": true
+}
+```
+
+if unsuccessful, will return
+
+```json
+{
+  "success": false,
+  "error": "string",
+  "message": "string",
+}
+```
 
 ## Changelog
 
