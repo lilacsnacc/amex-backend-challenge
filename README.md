@@ -26,10 +26,10 @@ This API currently supports 4 endpoints
 ```json
 [
   {
-    userName: "string",
-    id: "number",
-    email: "string",
-    events: "string[]"
+    "userName": "string",
+    "id": "number",
+    "email": "string",
+    "events": "string[]"
   },
   ...
 ]
@@ -41,10 +41,10 @@ This API currently supports 4 endpoints
 ```json
 [
   {
-    id: "number",
-    name: "string",
-    userId: "number",
-    details: "string"
+    "id": "number",
+    "name": "string",
+    "userId": "number",
+    "details": "string"
   },
   ...
 ]
@@ -60,7 +60,7 @@ This API currently supports 4 endpoints
 {
   "name": "string",
   "userId": "number"
-}'
+}
 ```
 
 if successful, will return
