@@ -83,12 +83,13 @@ if unsuccessful, will return
 
 ## Changelog
 
-4:30 - initialized repo
-5:00 - fleshed out README file
-5:30 - refactored `/getEventsByUserId/:id` endpoint to use `Promise.allSettled()`
-6:15 - standardized `GET` fetch function and reordered code for better DX
-6:30 - added retry code and cleanup to the `addEvent` endpoint
-6:45 - some code cleanup to be more palatable to most developers (semicolons :P), plus a correction to error code.
+- 4:30 - initialized repo
+- 5:00 - fleshed out README file
+- 5:30 - refactored `/getEventsByUserId/:id` endpoint to use `Promise.allSettled()`
+- 6:15 - standardized `GET` fetch function and reordered code for better DX
+- 6:30 - added retry code and cleanup to the `addEvent` endpoint
+- 6:45 - some code cleanup to be more palatable to most developers (semicolons :P), plus a correction to error code.
+- 7:00 - 30 minutes over, I know, but now completely done. Just needed to touch up some spelling and formatting errors, mostly in the README.
 
 ## Given More Time...
 Since the backend is a mocked server, there is some weirdness and best practices cannot be put to use. For example, instead of returning an empty array, calling for an id that is out of bounds used to actually cause an error requiring a server restart. I'd also like to add some catches, but without proper server structure, it's difficult to test those.
